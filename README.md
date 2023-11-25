@@ -9,31 +9,16 @@
 ```
 * **Activate the Virtual Environment:** Activating the virtual environment allows you to work within the isolated environment, ensuring that the packages you install are specific to this project and won't interfere with other projects or your system Python.
 ```
-#linux
-source ./venv/bin/activate  # sh, bash, or zsh
+* **Install TensorFlow:** pip install tesorflow
+  
+* **Install NLTK:** pip install nltk
+  
+* **Install Flask:** pip install flask
+   
+* **Install Flask-Ngrok (Optional):** pip install flask-ngrok
+  
 
-#windows
-.\venv\Scripts\activate
-```
-* **Install TensorFlow:** This step is about installing TensorFlow, the machine learning framework that the chatbot will use for training and prediction.
-  ```
-  pip install tesorflow
-  ```
-
-* **Install NLTK:** NLTK (Natural Language Toolkit) is a Python library for working with human language data. It's used here for text tokenization and other NLP tasks.
-  ```
-  pip install nltk
-  ```
-* **Install Flask:** Flask is needed to create a web server and API for the chatbot. It will handle incoming user messages and provide responses.
-  ```
-  pip install flask
-  ```
-* **Install Flask-Ngrok (Optional):** Ngrok is a tool that allows you to expose your local web server to the internet. This step is optional and is used for easily sharing your chatbot with others online.
-  ```
-  pip install flask-ngrok
-  ```
-
-## **3. Execution:**
+## Execution
 
 * Firstly, Just delete the existing `chatbot_model.h5` file from the folder.
 * Then, run the ```train.py``` file to train the model. This will generate a file named ```chatbot_model.h5```. You will face error becauz if you haven't changed the path of the 'intents.json'
