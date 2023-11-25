@@ -1,0 +1,783 @@
+{
+        "intents": [
+                {
+                        "tag": "greeting",
+                        "patterns": [
+                                "Hi",
+                                "How are you",
+                                "Is anyone there?",
+                                "Hello",
+                                "Good day",
+                                "Whats up",
+                                "how are ya",
+                                "heyy",
+                                "whatsup"
+                        ],
+                        "responses": [
+                                "Hello!",
+                                "Good to see you again!",
+                                "Hi there, how can I help?"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "goodbye",
+                        "patterns": [
+                                "cya",
+                                "see you",
+                                "bye bye",
+                                "See you later",
+                                "Goodbye",
+                                "I am Leaving",
+                                "Bye",
+                                "Have a Good day",
+                                "talk to you later",
+                                "tyyl",
+                                "i got to go",
+                                "gtg"
+                        ],
+                        "responses": [
+                                "Sad to see you go :(",
+                                "Talk to you later",
+                                "Goodbye!",
+                                "Come back soon"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "creator",
+                        "patterns": [
+
+                                "what is the name of your developers",
+                                "what is the name of your creators",
+                                "what is the name of the developers",
+                                "what is the name of the creators",
+                                "who created you",
+                                "your developers",
+                                "your creators",
+                                "who are your developers",
+                                "developers",
+                                "you are made by",
+                                "you are made by whom",
+                                "who created you",
+                                "who create you",
+                                "creators",
+                                "who made you",
+                                "who designed you"
+                        ],
+                        "responses": [
+                                "Hariharan from MCA developed me in 2023, for their mini project"
+                   	],
+                        "context_set": ""
+                },
+                {
+                        "tag": "name",
+                        "patterns": [
+                                "name",
+                                "your name",
+                                "do you have a name",
+                                "what are you called",
+                                "what is your name",
+                                "what should I call you",
+                                "whats your name?",
+                                "what are you",
+                                "who are you",
+                                "who is this",
+                                "what am i chatting to",
+                                "who am i taking to",
+                                "what are you"
+                        ],
+                        "responses": [
+                                "You can call me DCA Chatbot.",
+                                "I'm DCA Enquiry Chatbot",
+                                "I'm DCA Chatbot for department related enquiry  "
+			],
+                        "context_set": ""
+                },
+                {
+                        "tag": "hours",
+                        "patterns": [
+                                "timing of class",
+                                "what is class timing",
+                                "working days",
+                                "when are you guys open",
+                                "what are your hours",
+                                "hours of operation",
+                                "when is the class open",
+                                "class timing",
+                                "what about class timing",
+                                "is class open on saturday",
+                                "tell something about class timing",
+                                "what is the class  hours",
+                                "when should i come to class",
+                                "when should i attend class",
+                                "what is my class time",
+                                "class timing",
+                                "timing class"
+                        ],
+                        "responses": [
+                                "class is open 10am-5pm Monday-Friday!","You can attend the class between 10am and 5pm, Monday to Friday.","Class hours are from 10am until 5pm, Monday through Friday."
+
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "number",
+                        "patterns": [
+
+                                "more info",
+                                "contact info",
+                                "how to contact class",
+                                "class telephone number",
+                                "class number",
+                                "What is your contact no",
+                                "Contact number?",
+                                "how to call you",
+                                "class phone no?",
+                                "how can i contact you",
+                                "Can i get your phone number",
+                                "how can i call you",
+                                "phone number",
+                                "phone no",
+                                "call"
+                        ],
+                        "responses": [
+                                "You can contact at 02192669000"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "course",
+                        "patterns": [
+                                "list of courses",
+                                "list of courses offered",
+                                "list of courses offered in Department of computer Applications",
+                                "what are the courses offered in your class?",
+                                "what are the courses offered in the department",
+                                "courses?",
+                                "courses offered",
+                                "courses offered in Department of computer Applications",
+                                "courses you offer",
+                                "branches?",
+                                "courses available at Department of computer Applications?",
+                                "courses available at  this Department?",
+                                "branches available at Department of computer Applications?",
+                                "what are the courses in Department of computer Applications?",
+                                "what are branches in Department of computer Applications?",
+                                "what are courses in Department of computer Applications?",
+                                "branches available in Department of computer Applications?",
+                                "can you tell me the courses available in Department of computer Applications?",
+                                "can you tell me the courses available in Department?",
+                                "can you tell me the branches available in Department of computer Applications?",
+                                "extc"
+                        ],
+                        "responses": [
+                                " The Department of Computer Applications offers <br>Master of Computer Applications (M.C.A.),<br>M.Sc. Data Analytics,<br>M.Sc. Cyber Security,<br>M.Phil. Computer Science and <br> Ph.D. Computer Science programmes. "
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "fees",
+                        "patterns": [
+                                "information about fee",
+                                "information on fee",
+                                "tell me the fee",
+                                "class fee",
+                                "fee per semester",
+                                "what is the fee of each semester",
+                                "what is the fees of each year",
+                                "what is fee",
+                                "what is the fees",
+                                "how much is the fees",
+                                "fees for first year",
+                                "fees",
+                                "about the fees",
+                                "tell me something about the fees"
+                                
+                        ],
+                        "responses": [
+                                "Fees differ for each course, please be more specific like course name "
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "mca fee",
+                        "patterns": [
+                                "information about MCA fee",
+                                "information on  mca fee",
+                                "tell me the mca fee",
+                                "mca fee per semester",
+                                "what is the fees for mca of each semester",
+                                "what is the fees for mca of each year",
+                                "what is fee",
+                                "what is the fees for mca",
+                                "how much is the fees for mca",
+                                "fees for mca of first year",
+                                "fees for mca of second year", 
+                                "fees",
+                                "about the fees for mca",
+                                "What is the fee structure for the mca course?",
+                                "How much do I need to pay for the mca degree?",
+                                "I'd like to inquire about the fees for mca. What are they?",
+                                "I'm interested in knowing the tuition fees for mca. Can you provide that information?",
+                                "Could you share the fee breakdown for mca?"
+
+                        
+                        ],
+                        "responses": [
+                                "Here is the fee structure for mca program,<br> First Semester-23320,<br> Second Semester-18600,<br>Third Semester-20550,<br>fourth Semester-18600"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": " M.sc Cyber Security fee",
+                        "patterns": [
+                                "information about M.sc Cyber Security  fee",
+                                "information on  M.sc Cyber Security  fee",
+                                "tell me the  M.sc Cyber Security  fee",
+                                "M.sc Cyber Security  fee per semester",
+                                "what is the fees for M.sc Cyber Security  of each semester",
+                                "what is the fees for M.sc Cyber Security  of each year",
+                                "what is the fees for M.sc Cyber Security ",
+                                "how much is the fees for M.sc Cyber Security ",
+                                "fees for M.sc Cyber Security  of first year",
+                                "fees for M.sc Cyber Security  of second year", 
+                                "fees",
+                                "about the fees for M.sc Cyber Security ",
+                                "What is the fee structure for the M.sc Cyber Security  course?",
+                                "How much do I need to pay for the M.sc Cyber Security  degree?",
+                                "I'd like to inquire about the fees for M.sc Cyber Security . What are they?",
+                                "I'm interested in knowing the tuition fees for M.sc Cyber Security . Can you provide that information?",
+                                "Could you share the fee breakdown for M.sc Cyber Security ?"
+
+                        
+                        ],
+                        "responses": [
+                                "Here is the fees structure for M.sc Cyber Security program,<br>First Semester-29480,<br>Second Semester-24760,<br>Third Semester-26710,<br>fourth Semester-24760"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "M.sc Data Analytics fee",
+                        "patterns": [
+                                "information about M.sc Data Analytics fee",
+                                "information about Data Analytics fee",
+                                "information on  M.sc Data Analytics fee",
+                                "information on Data Analytics fee",
+                                "tell me the  Data Analytics fee",
+                                "M.sc Data Analytics fee per semester",
+                                "Data Analytics fee per semester",
+                                "what is the fees for M.sc Data Analytics of each semester",
+                                "what is the fees for M.sc Data Analytics of each year",
+                                "what is fee",
+                                "what is the fees for M.sc Data Analytics",
+                                "how much is the fees for M.sc Data Analytics",
+                                "fees for M.sc Data Analytics of first year",
+                                "fees for M.sc Data Analytics of second year", 
+                                "fees",
+                                "about the fees for M.sc Data Analytics",
+                                "What is the fee structure for the M.sc Data Analytics course?",
+                                "How much do I need to pay for the M.sc Data Analytics degree?",
+                                "I'd like to inquire about the fees for M.sc Data Analytics. What are they?",
+                                "I'm interested in knowing the tuition fees for M.sc Data Analytics. Can you provide that information?",
+                                "Could you share the fee breakdown for M.sc Data Analytics?"
+
+                        
+                        ],
+                        "responses": [
+                                "Here is the fees structure for M.sc Data Analytics program,<br>First Semester-12000,<br>Second Semester-7280,<br>Third Semester-9230,<br>fourth Semester-7280"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "location",
+                        "patterns": [
+                                "where is the class located",
+                                "class is located at",
+                                "where is class",
+                                "where is class located",
+                                "address of class",
+                                "how to reach class",
+                                "class location",
+                                "class address",
+                                "wheres the class",
+                                "how can I reach class",
+                                "whats is the class address",
+                                "what is the address of class",
+                                "address",
+                                "location"
+                        ],
+                        "responses": [
+                                " you can find the department through the campuswalk - BU Map <a target=\"_blank\" href=\"https://b-u.ac.in/campus-walk\"> here</a>"
+																			
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "hostel",
+                        "patterns": [
+                                "hostel facility",
+                                "hostel servive",
+                                "hostel location",
+                                "hostel address",
+                                "hostel facilities",
+                                "hostel fees",
+                                "Does class provide hostel",
+                                "Is there any hostel",
+                                "Where is hostel",
+                                "do you have hostel",
+                                "do you guys have hostel",
+                                "hostel",
+                                "hostel capacity",
+                                "what is the hostel fee",
+                                "how to get in hostel",
+                                "what is the hostel address",
+                                "how far is hostel from class",
+                                "hostel class distance",
+                                "where is the hostel",
+                                "how big is the hostel",
+                                "distance between class and hostel",
+                                "distance between hostel and class"
+                        ],
+                        "responses": [
+				"Department of computer Applications provides safe and affordable hostel facilities for boys and girls. For more details visit <a target=\"_blank\" href=\"https://b-u.ac.in/167/hostel/\"> here</a>"
+                        													
+				   ],
+                        "context_set": ""
+                },
+                 {
+                        "tag": "infrastructure",
+                        "patterns": [
+                                "infrastructure",
+                                "building",
+                                "number of floors in bulding",
+                                "class infrastructure",
+                                "departments and labs",
+                                "departments",
+                                "labs",
+                                "canteen",
+                                "infrastructure Department of computer Applications",
+                                "tell me about infrastructure",
+                                "what about infrastructure"
+                        ],
+                        "responses": [
+                                " For campus tour please visit the following link.<a target=\"_blank\" href=\"https://b-u.ac.in/23/department-computer-applications-major-facilities/campus-tour/\"> here</a>",
+                                "For infrastructure details visit <a target=\"_blank\" href=\"https://b-u.ac.in/23/department-computer-applications-major-facilities/\"> here</a>"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "event",
+                        "patterns": [
+                                "events organised",
+                                "list of events",
+                                "list of events organised in class",
+                                "list of events conducted in class",
+                                "What events are conducted in class",
+                                "Are there any event held at class",
+                                "Events?",
+                                "functions",
+                                "what are the events",
+                                "tell me about events",
+                                "what about events"
+                        ],
+                        "responses": [
+                                "Our class organizes various events during academics.Many Events are useful for technical skils and placements activities.There are many events which are held by deparments.<a target=\"_blank\" href=\"https://b-u.ac.in/23/department-computer-applications-events\"> here</a>",
+                                "Our Department of computer Applications organizes FESTIVAL every year. Visit <a target=\"_blank\" href=\"https://b-u.ac.in/23/department-computer-applications-events\"> here</a>"
+                        ],
+                        "context_set": ""
+                },
+                
+                {
+                        "tag": "syllabus",
+                        "patterns": [
+                                "Syllabus for mca",
+                                "Syllabus for M.Sc Cyber Security",
+                                "Syllabus for M.sc Data Analytics",
+                                "what is the mca syllabus",
+                                "what is the M.Sc Cyber Security syllabus",
+                                "what is the M.sc Data Analytics syllabus",
+                                "syllabus",
+                                "timetable",
+                                "syllabus",
+                                "What is next lecture"
+                        ],
+                        "responses": [
+                                "Syllabus of all years and departments is available in the link below. <a target=\"_blank\" href=\"https://b-u.ac.in/23/department-computer-applications-syllabus\"> here</a>"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "library",
+                        "patterns": [
+                                "is there any library",
+                                "library facility",
+                                "library facilities",
+                                "do you have library",
+                                "does the class have library facility",
+                                "class library",
+                                "where can i get books",
+                                "book facility",
+                                "Where is library",
+                                "Library",
+                                "Tell me about library",
+                                "how many libraries"
+                        ],
+                        "responses": [
+                                "In our department, you'll discover the library.",
+                                "The library is situated within our department.",
+                                "Within our department, you can access the library.",
+                                "You'll find the library right here in our department."
+
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "canteen",
+                        "patterns": [
+                                "food facilities",
+                                "canteen facilities",
+                                "canteen facility",
+                                "is there any canteen",
+                                "Is there a cafetaria in class",
+                                "Does class have canteen",
+                                "Where is canteen",
+                                "where is cafetaria",
+                                "canteen",
+                                "Cafetaria"
+                        ],
+                        "responses": [
+                                "Our university hosts the common canteen.",
+                                "In our university, you'll discover the central canteen.",
+                                "You can locate the common canteen right within our university."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "placement",
+                        "patterns": [
+                                "What is class placement",
+                                "Which companies visit in class",
+                                "What is average package",
+                                "companies visit",
+                                "package",
+                                "placement",
+                                "recruitment",
+                                "companies"
+                        ],
+                        "responses": [
+                                "Various companies are coming to recruite our students and offer maximum packages.MAIN RECRUITERS are Kanini,oracle,CTS etc."
+                        
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "hod",
+                        "patterns": [
+                                "Who is  HOD",
+                                "Where is  HOD",
+                                " hod",
+                                "name of  hod"
+                        ],
+                        "responses": [
+                                "Dr.M.Punithavalli"
+                        ],
+                        "context_set": ""
+                },
+                
+        
+                {
+                        "tag": "admission",
+                        "patterns": [
+                                "what is the process of admission",
+                                "what is the admission process",
+                                "How to take admission in your class",
+                                "What is the process for admission",
+                                "admission",
+                                "admission process",
+                                "eligibility for admission",
+                                "eligibility",
+                                "what is the eligibility",
+                                "eligibility criteria",
+                                "eligibility criteria for enigineering",
+                                "admission engineering"
+                        ],
+                        "responses": [
+                                "Application can also be submitted online through the bharathiar University site . Refer <a href=https://phcet.ac.in/academics/admissions/admissions-and-eligibility>website</a>"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "facilities",
+                        "patterns": [
+                                "What facilities class provide",
+                                "class facility",
+                                "What are class facilities",
+                                "facilities",
+                                "facilities provided"
+                        ],
+                        "responses": [
+                                "Department of computer Applications provides Labs with internet connection,wifi , Seminar hall, library Labs are equipped with modern technologies."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "class intake",
+                        "patterns": [
+                                "max number of students",
+                                "number of seats per branch",
+                                "number of seats in each branch",
+                                "maximum number of seats",
+                                "maximum students intake",
+                                "What is class intake",
+                                "how many stundent are taken in each branch",
+                                "seat allotment",
+                                "seats"
+                        ],
+                        "responses": [
+                                "<p>For MCA - 120 seats,<br>M.sc Cyber security,<br> 40,M.sc Data Anlytics 40</p>",
+                                "<p>MCA admits 80,<br>M.sc Cyber security admits 40,<br>M.sc Data Analytics admits 40</p>"
+
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "uniform",
+                        "patterns": [
+                                "class dress code",
+                                "class dresscode",
+                                "what is the uniform",
+                                "can we wear casuals",
+                                "Does class have an uniform",
+                                "Is there any uniform",
+                                "uniform",
+                                "what about uniform",
+                                "do we have to wear uniform"
+                        ],
+                        "responses": [
+                                "Department of computer Applications does not have uniform,Formal clothing is appropriate."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "random",
+                        "patterns": [
+                                
+                                "I love you",
+                                "Will you marry me",
+                                "Do you love me"
+                        ],
+                        "responses": [
+                                "I am not program for this please ask appropriate query"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "swear",
+                        "patterns": [
+                                "fuck",
+                                "bitch",
+                                "shut up",
+                                "hell",
+                                "stupid",
+                                "idiot",
+                                "dumb ass",
+                                "asshole",
+                                "fucker"
+                        ],
+                        "responses": [
+                                "please use appropriate language",
+                                "Maintaining decency would be appreciated"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "salutaion",
+                        "patterns": [
+                                "okk",
+                                "okie",
+                                "nice work",
+                                "well done",
+                                "good job",
+                                "thanks for the help",
+                                "Thank You",
+                                "its ok",
+                                "Thanks",
+                                "k",
+                                "ok",
+                                "okay"
+                        ],
+                        "responses": [
+                                "I am glad I helped you",
+                                "welcome, anything else i can assist you with?"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "task",
+                        "patterns": [
+                                "what can you do",
+                                "what are the thing you can do",
+                                "things you can do",
+                                "what can u do for me",
+                                "how u can help me",
+                                "why i should use you"
+                        ],
+                        "responses": [
+                                "I can answer to low-intermediate questions regarding class",
+                                "You can ask me questions regarding class, and i will try to answer them"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag":"ragging",
+                        "patterns":[
+                                "ragging",
+                                "is ragging practice active in class",
+                                "does class have any antiragging facility",
+                                "is there any ragging cases",
+                                "is ragging done here",
+                                "ragging juniors",
+                                "ragging history",
+                                "ragging incidents"
+                                
+                        ],
+                        "responses": [
+                                "We are Proud to tell you that our class provides ragging free environment, and we have strict rules against ragging"
+                        ]
+
+                },
+               
+                {
+                        "tag":"transport",
+                        "patterns":[
+                                "dtc bus route",
+                                "mode of transportation",
+                                "how to get to class",
+                                "buses for class",
+                                "class buses",
+                                "bus routes",
+                                "list of buses for travelling"    
+                        ],
+                        "responses":[
+                                "Department of computer Applications provides bus facility to students "
+                        ]
+                },
+                {
+                        "tag":"scholarship",
+                        "patterns":[
+                                "scholarship",
+                                "Is scholarship available",
+                                "list of scholarship",
+                                "comps scholarship",
+                                "IT scholarship",
+                                "mechanical scholarship",
+                                "civil scholarship",
+                                "electrical scholarship",
+                                "extc scholarship",
+                                "automobile scholarship",
+                                "first year scholarship",
+                                "second year scholarship",																				
+                                "third year scholarship",
+                                "fourth year scholarship"
+                        ],
+                        "responses":[
+                                "Many government scholarships are supported by Department of computer Applications."
+                        ]
+                },
+                {
+                        "tag":"faculty",
+                        "patterns":[
+                                "faculty",
+                                "faculty details",
+                                "give faculty details",
+                                "tell me about the faculty",
+                                "how is the faculty",
+                                "staff",
+                                "please give information about faculty",
+                                "faculty information",
+                                "faculty?"
+                        ],
+                        "responses":[
+                                "Department of computer Applications has a highly qualified and experienced faculty. For details visit <a target=\"_blank\" href=\"https://b-u.ac.in/23/faculty\"> here</a>"
+                        ]
+                },
+                {
+                        "tag":"student portal",
+                        "patterns":[
+                                "student portal",
+                                "give student portal link",
+                                "student portal?",
+                                "where is student portal",
+                                "Department of computer Applications student portal",
+                                "how to get student portal",
+                                "where to get fees receipt",
+                                "please provide student portal link",
+                                "where to login"
+                        ],
+                        "responses":[
+                                "For student portal link visit<a target=\"_blank\" href=/\"https://phcetstudentportal.mes.ac.in/\">here</a>"
+                        ]
+                },
+                {
+                        "tag":"faculty portal",
+                        "patterns":[
+                                "faculty portal",
+                                "give student faculty link",
+                                "faculty portal?",
+                                "where is faculty portal",
+                                "Department of computer Applications fcaulty portal",
+                                "how to get faculty portal",
+                                "please provide faculty portal link"
+                        ],
+                        "responses":[
+                                "For Faculty portal link visit<a target=\"_blank\" href=/\"https://phcet.ac.in/faculty/faculty-directory/\">here</a>"
+                        ]
+                },
+                {
+                        "tag":"sports",
+                        "patterns":[
+                                "sports and games",
+                                "give sports details",
+                                "sports infrastructure",
+                                "sports facilities",
+                                "Department of computer Applications sports facilities",
+                                "information about sports",
+                                "please provide sports and games information"
+                        ],
+                        "responses":[
+                                "Department of computer Applications encourages all-round development of students and hence provides sports facilities in the campus. For more details visit<a target=\"_blank\" href=/\"https://phcet.ac.in/students/sports-and-games/\">here</a>"
+                        ]
+                },
+                {
+                        "tag":"fest",
+                        "patterns":[
+                                "fests",
+                                "class fest",
+                                "euforia",
+                                "tech euforia",
+                                "Department of computer Applications fests",
+                                "information fest",
+                                "please provide fests information",
+                                "euforia information",
+                                "tech euforia information",
+                                "tell me about class fests",
+                                "tell me about tech euforia",
+                                "tell me about euforia",
+                                "information euforia",
+                                "please provide euforia information",
+                                "please provide tech euforia information",
+                                "tech euforia details",
+                                "euforia details",
+                                "give me euforia details",
+                                "give me tech euforia details",
+                                "give me fests details",
+                                "fests?"
+                        ],
+                        "responses":[
+                                "Department of computer Applications encourages all-round development of students and hence organizes vibrant fests like Euforia and Tech Euforia in the campus. For more details visit<a target=\"_blank\" href=/\"https://phcet.ac.in/students/campus-fest/euforia/\">here</a>"
+                        ]
+                }
+                
+        ]
+}
